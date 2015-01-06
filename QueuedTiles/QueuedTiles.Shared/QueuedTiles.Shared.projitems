@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="SharedProjectFile_SccProperties">
+    <SharedProjectFile_ProjectGuid>{245d25d3-270b-4f94-8fb6-ba66c61bd9a3}</SharedProjectFile_ProjectGuid>
+    <SharedProjectFile_SccProjectName>SAK</SharedProjectFile_SccProjectName>
+    <SharedProjectFile_SccAuxPath>SAK</SharedProjectFile_SccAuxPath>
+    <SharedProjectFile_SccLocalPath>SAK</SharedProjectFile_SccLocalPath>
+    <SharedProjectFile_SccProvider>SAK</SharedProjectFile_SccProvider>
+  </PropertyGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>fd0b829f-d3c1-458b-8d92-6fa8ba273b5f</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>QueuedTiles</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)TileItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TilesManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Tiles\0_Logo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Tiles\0_Square310x310Logo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Tiles\0_Square71x71Logo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Tiles\0_WideLogo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Tiles\1_Logo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Tiles\1_Square310x310Logo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Tiles\1_Square71x71Logo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Tiles\1_WideLogo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Tiles\2_Logo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Tiles\2_Square310x310Logo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Tiles\2_Square71x71Logo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Tiles\2_WideLogo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Tiles\3_Logo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Tiles\3_Square310x310Logo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Tiles\3_Square71x71Logo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Tiles\3_WideLogo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Tiles\4_Logo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Tiles\4_Square310x310Logo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Tiles\4_Square71x71Logo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Tiles\4_WideLogo.scale-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+</Project>
