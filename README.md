@@ -1,15 +1,35 @@
 Queued Tiles
 =======
-This project demonstrates how to add queued tiles to your windows 8 and windows phone project.
+An open-source project demonstrates how to add queued tiles to your windows 8 and windows phone project.
+
+![Example](/tile_preview.gif)
 
 Queued Tiles
 ---
 A queue of tiles that is changed automatically.
 
+Answered Questions
+----
+
+The project answers the following questions:
+
+* What is tile, queued tiles in Windows 8 and Windows Phone?
+* How to implement tiles in Windows 8 and Windows Phone?
+* How to implement queued tiles in Windows 8 and Windows Phone that is changed every period of time?
+* How to implement tiles in a Universal App?
+* How to clear (reset) tile and back to the app icon?
+* How to scale tile image?
+
 Run
 ---
 ```
 TilesManager.ShowQueuedTiles();
+```
+
+Clear (Reset)
+---
+```
+TileUpdateManager.CreateTileUpdaterForApplication().Clear();
 ```
 
 Operating system requirements
